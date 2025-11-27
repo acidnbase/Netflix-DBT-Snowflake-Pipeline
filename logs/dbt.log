@@ -1,0 +1,29 @@
+[0m21:09:40.637631 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002201B6B0530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002201E09CE60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002201E09E180>]}
+
+
+============================== 21:09:40.751513 | e4fbb5b2-97d1-4d0d-a354-de66cc1111cb ==============================
+[0m21:09:40.751513 [info ] [MainThread]: Running with dbt=1.10.15
+[0m21:09:40.757204 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'target_path': 'None', 'log_format': 'default', 'invocation_command': 'dbt init netflix', 'printer_width': '80', 'warn_error': 'None', 'indirect_selection': 'eager', 'fail_fast': 'False', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'version_check': 'True', 'use_experimental_parser': 'False', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\91892\\.dbt', 'use_colors': 'True', 'cache_selected_only': 'False', 'write_json': 'True'}
+[0m21:09:41.397383 [debug] [MainThread]: Starter project path: C:\Users\91892\Desktop\DE Projects\Netflix_DataPipeline\netflixdbt\venv\Lib\site-packages\dbt\include\starter_project
+[0m21:09:41.656787 [info ] [MainThread]: 
+Your new dbt project "netflix" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:09:41.673414 [info ] [MainThread]: Setting up your profile.
+[0m21:12:40.543029 [info ] [MainThread]: Profile netflix written to C:\Users\91892\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:12:40.553510 [debug] [MainThread]: Command `dbt init` succeeded at 21:12:40.552507 after 181.38 seconds
+[0m21:12:40.555173 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002201E0F1880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002202043CD40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220206CD040>]}
+[0m21:12:40.564022 [debug] [MainThread]: Flushing usage events
+[0m21:12:46.507741 [debug] [MainThread]: An error was encountered while trying to flush usage events
